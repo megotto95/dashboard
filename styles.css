@@ -1,0 +1,24 @@
+.grid {
+    
+    display:grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+.grid div {
+    padding: 20px;
+}
+
+.header {
+    grid-column: 2/3;
+    background-color: blue;
+}
+
+.sidebar {
+    grid-column:1/2;
+    grid-row:1/3;
+    background-color: lightblue;
+}
+
+.main-content {
+    grid-column: 2/3;
+}
