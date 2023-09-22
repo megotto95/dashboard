@@ -5,16 +5,40 @@
     grid-template-rows: 1fr 5fr;
 }
 
-.grid div {
-    padding: 20px;
-}
 
 .header {
     grid-column: 2/3;
     grid-row: 1/2;
     background-color: blue;
     display: grid;
+    grid-template-rows: 1 fr 1 fr;
+    gap: 20%;
+    padding: 20px 40px;
 }
+
+.toprow {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: min-content 1fr min-content min-content min-content;
+    gap: 20px;
+    text-align: left;
+}
+
+.searchBar {
+    border: 1px solid;
+    margin-right: 30%;
+    height: 1.5rem;
+}
+
+.bottomrow {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: min-content 1fr repeat(3, min-content);
+    gap: 20px;
+}
+
+
+
 
 .sidebar {
     grid-column:1/2;
