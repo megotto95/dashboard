@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto:wght@100;300&display=swap');
+      </style>
 </head>
 <body>
     <div class="grid">
@@ -17,7 +20,7 @@
                 <div class="userName">User</div>
             </div>
             <div class="bottomrow">
-                <img src="https://picsum.photos/70" alt="Profile Icon" id="bigProfileIcon">
+                <img src="https://picsum.photos/60" alt="Profile Icon" id="bigProfileIcon">
                 <div class="text">
                     <div class="greeting">Hello there,</div>
                     <div class="name">User</div>
@@ -56,37 +59,40 @@
             </div>
         </div>
         <div class="main-content">
-            <div class="titles">
-                <div>Your Projects</div>
-                <div>Announcements</div>
-            </div>
+            <div class="left">
+            <div class="titles" id="yourProjects">Your Projects</div>
             <div class="cards">
+                
                 <div class="card">
-                    <h2 class="title">Super Cool Project</h2>
+                    <h3 class="title">Super Cool Project</h3>
                     <p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde tempora debitis quo nostrum natus? Ex non recusandae totam ducimus? 
                 </div>
                 <div class="card">
-                    <h2 class="title">Less Cool Project</h2>
+                    <h3 class="title">Less Cool Project</h3>
                     <p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde tempora debitis quo nostrum natus? Ex non recusandae totam ducimus? 
                 </div>
                 <div class="card">
-                    <h2 class="title">Impossible App</h2>
+                    <h3 class="title">Impossible App</h3>
                     <p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde tempora debitis quo nostrum natus? Ex non recusandae totam ducimus? 
                 </div>
                 <div class="card">
-                    <h2 class="title">Easy App</h2>
+                    <h3 class="title">Easy App</h3>
                     <p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde tempora debitis quo nostrum natus? Ex non recusandae totam ducimus? 
                 </div>
                 <div class="card">
-                    <h2 class="title">Ad Blocker</h2>
+                    <h3 class="title">Ad Blocker</h3>
                     <p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde tempora debitis quo nostrum natus? Ex non recusandae totam ducimus? 
                 </div>
                 <div class="card">
-                    <h2 class="title">Money Maker</h2>
+                    <h3 class="title">Money Maker</h3>
                     <p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde tempora debitis quo nostrum natus? Ex non recusandae totam ducimus? 
                 </div>
                 </div>
-                <div class="announcments">
+                </div>
+                <div class="right">
+                <div class="titles">Announcements</div>
+                <div class="announcements">
+                    
                     <div class="announcment">
                         <h3>Site Maintenance</h3>
                         <p class="announcment">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -124,6 +130,7 @@
                     </div>
                 </div>
             </div> 
+            </div>
             </div>
 </body>
 </html>
